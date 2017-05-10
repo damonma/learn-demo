@@ -9,6 +9,7 @@
         <module>webapp</module>
         <module>provider</module>
         <module>design-patterns</module>
+        <module>provider-api</module>
     </modules>
     <name>learn-demo Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -130,6 +131,11 @@
               <groupId>org.aspectj</groupId>
               <artifactId>aspectjweaver</artifactId>
               <version>1.6.12</version>
+          </dependency>
+          <dependency>
+              <groupId>com.github.sgroschupf</groupId>
+              <artifactId>zkclient</artifactId>
+              <version>0.1</version>
           </dependency>
       </dependencies>
   </dependencyManagement>
