@@ -11,7 +11,7 @@
         <module>design-patterns</module>
         <module>provider-api</module>
     </modules>
-    <name>learn-demo Maven Webapp</name>
+    <name>learn-demo</name>
   <url>http://maven.apache.org</url>
 
   <properties>
