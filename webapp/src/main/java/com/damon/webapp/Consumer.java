@@ -17,6 +17,5 @@ public class Consumer {
 
         IHelloService helloService = (IHelloService)context.getBean("helloService"); // 获取远程服务代理
         helloService.hello("world"); // 执行远程方法
-
     }
 }
