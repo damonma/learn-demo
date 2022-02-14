@@ -114,7 +114,7 @@ public class LotteryService {
                 builder.append("red").append(red);
             }
             if (null != blue && !blue.isEmpty()) {
-                builder.append(",").append("blue").append(blue);
+                builder.append(", ").append("blue").append(blue);
             }
 
             return builder.toString();
